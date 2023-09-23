@@ -156,6 +156,7 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
+        App\Providers\FortifyServiceProvider::class,
         /*
          * Package Service Providers...
          */
